@@ -1,21 +1,21 @@
-From: =?utf-8?b?157Xlteo15fXmSDXmNek15fXldeq?= <service@mizrahi.co.il>
-To: Daniel Rosehill <daniel@danielrosehill.co.il>
+From: =?utf-8?b?15HXoNenINec15PXldeS157XlA==?= <service@example-bank.co.il>
+To: Dana Levi <dana@example.com>
 Subject: Re: =?utf-8?b?16HXkteZ16jXqiDXodeg15nXoyAtINeU15XXk9ei15Q=?=
 Date: Wed, 02 Sep 2026 08:15:00 +0300
-Message-ID: <c3@mizrahi.co.il>
-In-Reply-To: <b2@danielrosehill.co.il>
-References: <a1@mizrahi.co.il> <b2@danielrosehill.co.il>
+Message-ID: <c3@example-bank.co.il>
+In-Reply-To: <b2@example.com>
+References: <a1@example-bank.co.il> <b2@example.com>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============3134362461827901401=="
+ boundary="===============8862742875153470708=="
 
---===============3134362461827901401==
+--===============8862742875153470708==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
-see html
+plain part
 
---===============3134362461827901401==
+--===============8862742875153470708==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: base64
 MIME-Version: 1.0
@@ -23,4 +23,4 @@ MIME-Version: 1.0
 PGh0bWw+PGJvZHk+PHA+15TXqtec15XXoNeUINep15zXmiDXoNen15zXmNeUINeR157Xodek16gg
 OTg3NjU0MzIxLjwvcD48L2JvZHk+PC9odG1sPgo=
 
---===============3134362461827901401==--
+--===============8862742875153470708==--

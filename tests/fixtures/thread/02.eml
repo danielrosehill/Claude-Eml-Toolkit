@@ -1,29 +1,29 @@
-From: Daniel Rosehill <daniel@danielrosehill.co.il>
-To: =?utf-8?b?157Xlteo15fXmSDXmNek15fXldeq?= <service@mizrahi.co.il>
+From: Dana Levi <dana@example.com>
+To: =?utf-8?b?15HXoNenINec15PXldeS157XlA==?= <service@example-bank.co.il>
 Subject: Re: =?utf-8?b?16HXkteZ16jXqiDXodeg15nXoyAtINeU15XXk9ei15Q=?=
 Date: Tue, 01 Sep 2026 11:30:00 +0300
-Message-ID: <b2@danielrosehill.co.il>
-In-Reply-To: <a1@mizrahi.co.il>
-References: <a1@mizrahi.co.il>
+Message-ID: <b2@example.com>
+In-Reply-To: <a1@example-bank.co.il>
+References: <a1@example-bank.co.il>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============6294937639941199327=="
+ boundary="===============4433365556634753601=="
 
---===============6294937639941199327==
+--===============4433365556634753601==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
-see html
+plain part
 
---===============6294937639941199327==
+--===============4433365556634753601==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: base64
 MIME-Version: 1.0
 
 PGh0bWw+PGJvZHk+PHA+VGhpcyBpcyB1bmFjY2VwdGFibGUuIEkgd2FzIGdpdmVuIG5vIG5vdGlj
 ZS48L3A+PHA+15DXoNeZINee15HXp9epINeU16HXkdeoINeR15vXqteRLjwvcD48YmxvY2txdW90
-ZT48cD7Xqdec15XXnSDXk9eg15nXkNecLCDXnteh16TXqCDXlNeX16nXkdeV158g16nXnNeaIDEy
-My00NTY3ODkg15TXldei15HXqCDXnNeh16DXmdejINeQ15fXqC48L3A+PC9ibG9ja3F1b3RlPjwv
-Ym9keT48L2h0bWw+Cg==
+ZT48cD7Xqdec15XXnSDXk9eg15QsINee16HXpNeoINeU15fXqdeR15XXnyDXqdec15ogMTIzLTQ1
+Njc4OSDXlNeV16LXkdeoINec16HXoNeZ16Mg15DXl9eoLjwvcD48L2Jsb2NrcXVvdGU+PC9ib2R5
+PjwvaHRtbD4K
 
---===============6294937639941199327==--
+--===============4433365556634753601==--

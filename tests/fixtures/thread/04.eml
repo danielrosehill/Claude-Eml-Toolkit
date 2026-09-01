@@ -1,33 +1,33 @@
-From: =?utf-8?b?157Xlteo15fXmSDXmNek15fXldeq?= <service@mizrahi.co.il>
-To: daniel@danielrosehill.co.il
+From: =?utf-8?b?15HXoNenINec15PXldeS157XlA==?= <service@example-bank.co.il>
+To: Dana Levi <dana@example.com>
 Subject: Re: =?utf-8?b?16HXkteZ16jXqiDXodeg15nXoyAtINeU15XXk9ei15Q=?=
 Date: Wed, 02 Sep 2026 09:00:00 +0300
-Message-ID: <d4@mizrahi.co.il>
-In-Reply-To: <c3@mizrahi.co.il>
-References: <a1@mizrahi.co.il> <b2@danielrosehill.co.il> <c3@mizrahi.co.il>
+Message-ID: <d4@example-bank.co.il>
+In-Reply-To: <c3@example-bank.co.il>
+References: <a1@example-bank.co.il> <b2@example.com> <c3@example-bank.co.il>
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3497888078990292963=="
+Content-Type: multipart/mixed; boundary="===============1488730299860013950=="
 
---===============3497888078990292963==
+--===============1488730299860013950==
 Content-Type: multipart/alternative;
- boundary="===============5803591607483728914=="
+ boundary="===============7040824105203002826=="
 
---===============5803591607483728914==
+--===============7040824105203002826==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
-see attached
+plain part
 
---===============5803591607483728914==
+--===============7040824105203002826==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: 8bit
 MIME-Version: 1.0
 
 <html><body><p dir="rtl">מצורף המכתב.</p></body></html>
 
---===============5803591607483728914==--
+--===============7040824105203002826==--
 
---===============3497888078990292963==
+--===============1488730299860013950==
 Content-Type: application/pdf
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="letter.pdf"
@@ -35,4 +35,4 @@ MIME-Version: 1.0
 
 JVBERi0xLjQgZmFrZSBsZXR0ZXIgYnl0ZXM=
 
---===============3497888078990292963==--
+--===============1488730299860013950==--

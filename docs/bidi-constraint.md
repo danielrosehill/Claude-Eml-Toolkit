@@ -61,8 +61,8 @@ rule browsers use for `dir="auto"`), plus one deviation:
 An RTL display name followed by an LTR address detaches the angle bracket:
 
 ```
-rendered:  ‹ מזרחי טפחות‹service@mizrahi.co.il>
-wanted:    מזרחי טפחות <service@mizrahi.co.il>
+rendered:  ‹ בנק לדוגמה‹service@example-bank.co.il>
+wanted:    בנק לדוגמה <service@example-bank.co.il>
 ```
 
 The bracket is a *neutral* character sitting between an RTL run and an LTR run,
@@ -84,7 +84,7 @@ that renders perfectly comes out looking broken:
 
 ```
 $ pdftotext chain.pdf -
-‫< מזרחי טפחות‬service@mizrahi.co.il>
+‫< בנק לדוגמה‬service@example-bank.co.il>
 ```
 
 That output is what a *correct* render looks like under `pdftotext`. Chasing it

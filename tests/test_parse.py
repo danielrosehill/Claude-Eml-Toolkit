@@ -19,14 +19,14 @@ def test_thread_is_reconstructed_in_order():
 
 def test_hebrew_headers_are_decoded():
     t = P.build_thread(P.parse_source(FIXTURES))["threads"][0]
-    assert t["messages"][0]["from"]["name"] == "מזרחי טפחות"
+    assert t["messages"][0]["from"]["name"] == "בנק לדוגמה"
     assert "סגירת סניף" in t["messages"][0]["subject"]
 
 
 def test_participants_deduplicated():
     t = P.build_thread(P.parse_source(FIXTURES))["threads"][0]
     assert t["participants"] == [
-        "daniel@danielrosehill.co.il", "service@mizrahi.co.il"
+        "dana@example.com", "service@example-bank.co.il"
     ]
 
 

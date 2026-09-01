@@ -1,25 +1,25 @@
-From: =?utf-8?b?157Xlteo15fXmSDXmNek15fXldeq?= <service@mizrahi.co.il>
-To: Daniel Rosehill <daniel@danielrosehill.co.il>
+From: =?utf-8?b?15HXoNenINec15PXldeS157XlA==?= <service@example-bank.co.il>
+To: Dana Levi <dana@example.com>
 Subject: =?utf-8?b?16HXkteZ16jXqiDXodeg15nXoyAtINeU15XXk9ei15Q=?=
 Date: Tue, 01 Sep 2026 09:00:00 +0300
-Message-ID: <a1@mizrahi.co.il>
+Message-ID: <a1@example-bank.co.il>
 MIME-Version: 1.0
 Content-Type: multipart/alternative;
- boundary="===============0815155361459281824=="
+ boundary="===============2432337000765624043=="
 
---===============0815155361459281824==
+--===============2432337000765624043==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
-see html
+plain part
 
---===============0815155361459281824==
+--===============2432337000765624043==
 Content-Type: text/html; charset="utf-8"
 Content-Transfer-Encoding: base64
 MIME-Version: 1.0
 
-PGh0bWw+PGJvZHk+PHA+16nXnNeV150g15PXoNeZ15DXnCwg157Xodek16gg15TXl9ep15HXldef
-INep15zXmiAxMjMtNDU2Nzg5INeU15XXoteR16gg15zXodeg15nXoyDXkNeX16guPC9wPjxwPlJl
-ZmVyZW5jZTogUkVGLTIwMjYtMDkwMTwvcD48L2JvZHk+PC9odG1sPgo=
+PGh0bWw+PGJvZHk+PHA+16nXnNeV150g15PXoNeULCDXnteh16TXqCDXlNeX16nXkdeV158g16nX
+nNeaIDEyMy00NTY3ODkg15TXldei15HXqCDXnNeh16DXmdejINeQ15fXqC48L3A+PHA+UmVmZXJl
+bmNlOiBSRUYtMjAyNi0wOTAxPC9wPjwvYm9keT48L2h0bWw+Cg==
 
---===============0815155361459281824==--
+--===============2432337000765624043==--
