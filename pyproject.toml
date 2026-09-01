@@ -1,0 +1,19 @@
+[project]
+name = "eml-toolkit"
+version = "0.1.0"
+description = "Reconstruct email threads from .eml exports and render them to PDF/Markdown with correct bidirectional text handling."
+requires-python = ">=3.11"
+dependencies = [
+  "weasyprint>=62",
+  "beautifulsoup4>=4.12",
+]
+
+[project.scripts]
+eml-toolkit = "eml_toolkit.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["scripts/eml_toolkit"]

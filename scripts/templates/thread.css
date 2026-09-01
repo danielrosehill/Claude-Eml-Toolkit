@@ -1,0 +1,65 @@
+/* Page furniture. Counters are on @page so a bundle can be paginated
+   continuously across merged threads. */
+@page {
+  size: A4;
+  margin: 18mm 16mm 20mm 16mm;
+  @bottom-center {
+    content: "Page " counter(page) " of " counter(pages);
+    font: 9pt "IBM Plex Sans Hebrew", "DejaVu Sans", sans-serif;
+    color: #666;
+  }
+}
+
+/* IBM Plex Sans Hebrew first: it is installed on this machine and covers both
+   Hebrew and Latin, so a mixed thread keeps one typeface. DejaVu carries Arabic. */
+body {
+  font-family: "IBM Plex Sans Hebrew", "DejaVu Sans", "FreeSans", sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: #111;
+}
+
+.cover { border-bottom: 2px solid #222; padding-bottom: 8mm; margin-bottom: 8mm; }
+.cover h1 { font-size: 17pt; margin: 0 0 3mm 0; }
+.cover .summary { margin: 0 0 1mm 0; color: #444; font-size: 9.5pt; }
+.cover .participants { margin: 0; color: #666; font-size: 9pt; }
+
+.message { break-inside: auto; margin-bottom: 9mm; padding-bottom: 6mm; border-bottom: 1px solid #ddd; }
+.message:last-child { border-bottom: none; }
+.msgnum { font-size: 8.5pt; color: #888; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 2mm; }
+
+/* Headers stay LTR regardless of body language: addresses, dates and
+   Message-IDs are LTR data even in a Hebrew thread. */
+table.headers { width: 100%; border-collapse: collapse; margin-bottom: 4mm; background: #f6f6f6; }
+table.headers th, table.headers td { text-align: left; vertical-align: top; padding: 1.2mm 2.5mm; font-size: 9.5pt; }
+table.headers th { width: 18mm; color: #555; font-weight: 600; white-space: nowrap; }
+
+/* Direction is set per element by bidi.annotate_html, never here — WeasyPrint
+   ignores unicode-bidi:plaintext, so CSS cannot resolve it. See docs/. */
+.body { break-inside: auto; }
+.body[dir="rtl"] { text-align: right; }
+.body[dir="ltr"] { text-align: left; }
+.body p[dir="rtl"], .body div[dir="rtl"], .body li[dir="rtl"] { text-align: right; }
+.body p[dir="ltr"], .body div[dir="ltr"], .body li[dir="ltr"] { text-align: left; }
+
+p.pt { white-space: pre-wrap; margin: 0 0 2.5mm 0; }
+
+/* Quoted history: present but visually demoted, since the thread PDF already
+   shows the quoted message in full further up. */
+.quoted, blockquote.quoted {
+  color: #777; font-size: 9.5pt;
+  border-inline-start: 2px solid #ccc;
+  padding-inline-start: 3mm;
+  margin-inline-start: 0;
+}
+
+.body img { max-width: 100%; height: auto; }
+.body table { border-collapse: collapse; max-width: 100%; }
+.body td, .body th { border: 1px solid #ccc; padding: 1mm 2mm; }
+
+.attachments { margin-top: 4mm; padding: 2.5mm 3mm; background: #fafafa; border: 1px solid #e5e5e5; }
+.attachments h4 { margin: 0 0 1.5mm 0; font-size: 9pt; text-transform: uppercase; letter-spacing: .04em; color: #555; }
+.attachments ul { margin: 0; padding-left: 5mm; font-size: 9pt; }
+.attachments .meta { color: #888; }
+
+.redacted { background: #000; color: #000; padding: 0 1mm; }

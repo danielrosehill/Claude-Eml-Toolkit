@@ -1,0 +1,12 @@
+{
+  "name": "eml-toolkit",
+  "version": "0.1.0",
+  "description": "Process .eml email exports into human- and agent-readable artefacts — reconstruct a thread from loose .eml files, render the chain to a single PDF with correct right-to-left handling for Hebrew/Arabic, extract attachments, export Markdown, redact before sharing, and build numbered evidence bundles.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "url": "https://github.com/danielrosehill"
+  },
+  "repository": "https://github.com/danielrosehill/Claude-Eml-Toolkit",
+  "license": "MIT",
+  "keywords": ["eml", "email", "pdf", "rtl", "hebrew", "bidi", "thread", "redaction", "evidence"]
+}
