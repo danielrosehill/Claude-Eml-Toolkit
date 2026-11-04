@@ -16,7 +16,7 @@ this:
 | Plugin | Relationship |
 | --- | --- |
 | `spamhole` | The only other `.eml` consumer. Reads `inputs/emails/` for spam scoring, not document production. |
-| `rtl-email` | RTL *composition and sending* (dir=rtl HTML into Gmail/Resend). Adjacent knowledge, opposite direction of travel. |
+| `rtl-skills` | RTL *composition and sending* (dir=rtl HTML into Gmail/Resend). Adjacent knowledge, opposite direction of travel. |
 | `document-to-markdown` | PDF → Markdown. Opposite direction. |
 | `digital-evidence` | Hashing, OpenTimestamps, BagIt. Complements `bundle-evidence`; does not parse mail. |
 | `digital-printing`, `programmatic-doc-generation` | Downstream PDF handling, no email awareness. |
