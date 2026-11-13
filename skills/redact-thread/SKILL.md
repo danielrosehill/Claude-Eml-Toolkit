@@ -8,7 +8,7 @@ description: Mask emails, phone numbers, national ID numbers, bank accounts, car
 ```bash
 cd ${CLAUDE_PLUGIN_ROOT} && source .venv/bin/activate
 PYTHONPATH=scripts python3 -m eml_toolkit.cli pdf <source> --out redacted.pdf \
-  --redact --keep daniel@danielrosehill.co.il,REF-2026-0901
+  --redact --keep user@example.com,REF-2026-0901
 ```
 
 `--redact` alone applies the default rule set: `email`, `israeli_id`,
