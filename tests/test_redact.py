@@ -7,15 +7,15 @@ from eml_toolkit import redact as RD  # noqa: E402
 
 
 def test_email_is_masked_but_domain_kept():
-    out, counts = RD.redact_text("write to daniel@example.com now", ("email",))
-    assert "daniel@example.com" not in out
+    out, counts = RD.redact_text("write to alex@example.com now", ("email",))
+    assert "alex@example.com" not in out
     assert "@example.com" in out
     assert counts["email"] == 1
 
 
 def test_keep_list_exempts_a_literal():
-    out, _ = RD.redact_text("daniel@example.com", ("email",), keep={"daniel@example.com"})
-    assert out == "daniel@example.com"
+    out, _ = RD.redact_text("alex@example.com", ("email",), keep={"alex@example.com"})
+    assert out == "alex@example.com"
 
 
 def test_card_number_keeps_last_four():

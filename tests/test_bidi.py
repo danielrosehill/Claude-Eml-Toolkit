@@ -14,7 +14,7 @@ def test_hebrew_is_rtl():
 
 
 def test_english_is_ltr():
-    assert bidi.resolve_direction("Hello Daniel") == "ltr"
+    assert bidi.resolve_direction("Hello Alex") == "ltr"
 
 
 def test_digits_alone_are_neutral_and_inherit_default():
