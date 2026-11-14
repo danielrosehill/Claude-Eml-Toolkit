@@ -1,6 +1,6 @@
 [project]
 name = "eml-toolkit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Reconstruct email threads from .eml exports and render them to PDF/Markdown with correct bidirectional text handling."
 requires-python = ">=3.11"
 dependencies = [

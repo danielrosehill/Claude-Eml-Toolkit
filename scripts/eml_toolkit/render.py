@@ -19,7 +19,7 @@ from bs4 import BeautifulSoup, Comment
 
 from . import bidi
 
-_TEMPLATE_DIR = Path(__file__).resolve().parent.parent / "templates"
+_TEMPLATE_DIR = Path(__file__).resolve().parent / "templates"  # inside the package, so installed wheels carry it
 
 # Stripped before rendering: script/style never contribute to a printed record,
 # and remote resources would phone home to the sender when the PDF is built.

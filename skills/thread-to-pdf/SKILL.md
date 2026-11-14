@@ -28,7 +28,7 @@ block was assigned.
 
 ## Direction is handled for you — do not add CSS for it
 
-Do not try to fix an RTL problem by editing `scripts/templates/thread.css`.
+Do not try to fix an RTL problem by editing `scripts/eml_toolkit/templates/thread.css`.
 WeasyPrint does not implement `unicode-bidi: plaintext`, so direction cannot be
 resolved in CSS at all; it is decided per block in `scripts/eml_toolkit/bidi.py`
 and written as an explicit `dir` attribute before WeasyPrint sees the document.

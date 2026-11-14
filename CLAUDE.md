@@ -6,7 +6,7 @@ Read `docs/bidi-constraint.md` first. Two things there will otherwise cost you
 an afternoon each:
 
 1. WeasyPrint does not implement `unicode-bidi: plaintext`. Direction cannot be
-   fixed in `scripts/templates/thread.css`; it is resolved in
+   fixed in `scripts/eml_toolkit/templates/thread.css`; it is resolved in
    `scripts/eml_toolkit/bidi.py` and written as `dir` attributes at build time.
 2. `pdftotext` prints logical order with embedding marks. A correct render looks
    broken under it. Verify with `pdftoppm -png` and look at the image.
@@ -21,7 +21,7 @@ scripts/eml_toolkit/
   redact.py    pattern masking, applied to JSON before render
   markdown.py  thread -> Markdown
   cli.py       argparse front end; every command emits JSON
-scripts/templates/thread.css   print stylesheet, no direction logic
+scripts/eml_toolkit/templates/thread.css   print stylesheet, no direction logic
 skills/        one directory per skill
 tests/fixtures/thread/         5-message mixed Hebrew/English chain, 2 with a
                                duplicate attachment (exercises dedupe)

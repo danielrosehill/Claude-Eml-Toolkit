@@ -31,7 +31,7 @@ explicit `dir` attribute on each block element before WeasyPrint sees the
 document. That is `scripts/eml_toolkit/bidi.py`, applied by
 `render.message_body_html`.
 
-`scripts/templates/thread.css` therefore contains **no direction logic** beyond
+`scripts/eml_toolkit/templates/thread.css` therefore contains **no direction logic** beyond
 `text-align` rules keyed off the `dir` attribute the Python already set. Adding
 `direction:` or `unicode-bidi:` declarations there will not work, and will look
 like it might.
